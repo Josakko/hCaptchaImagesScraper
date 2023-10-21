@@ -8,8 +8,8 @@ import tkinter as tk
 from PIL import ImageTk, Image
 import textwrap
 
-from utils.n import n
-from utils.c import c
+from func.n import n
+from func.c import c
 
 
 
