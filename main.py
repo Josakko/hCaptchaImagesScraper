@@ -113,7 +113,7 @@ class HcaptchaImagesDownloader:
         
         root.geometry(f"{splash_width}x{splash_hight}+{int(x)}+{int(y)}")
         root.resizable(False, False)
-        icon = ImageTk.PhotoImage(file=os.path.join("assets", "JK.png"))
+        icon = ImageTk.PhotoImage(file=os.path.join("assets", "icon.png"))
         root.iconphoto(True, icon)
         root.wm_protocol("WM_DELETE_WINDOW", lambda: [self.set_quit(), root.destroy()])
         
