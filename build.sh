@@ -23,5 +23,7 @@ rm -rf venv
 rm -rf req.txt
 
 mv build/main.bin build/hChaptchaImageScraper
+touch build/questions.txt
+mkdir build/images
 
 echo "Compiling finished!"
